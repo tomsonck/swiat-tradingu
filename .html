@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Świat Tradingu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('https://images.unsplash.com/photo-1569025692305-0a0e01fa6375?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        header, section {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 10px;
+            padding-left: 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #0077cc;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Świat Tradingu</h1>
+        <nav>
+            <ul>
+                <li><a href="#o-gieldzie">O Giełdzie</a></li>
+                <li><a href="#o-forexie">O Forexie</a></li>
+                <li><a href="#strategie">Strategie</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#transakcje">Transakcje</a></li>
+                <li><a href="#premium">Premium</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="o-gieldzie">
+        <h2>O Giełdzie</h2>
+        <p>Giełda papierów wartościowych to miejsce, gdzie inwestorzy kupują i sprzedają akcje spółek publicznych. Uczestnicy giełdy analizują dane rynkowe, aby podejmować decyzje inwestycyjne. Przykładami giełd są: NYSE, NASDAQ, GPW.</p>
+    </section>
+
+    <section id="o-forexie">
+        <h2>O Forexie</h2>
+        <p>Forex (FX) to globalny rynek wymiany walut, największy na świecie pod względem wolumenu obrotów. Handluje się tu parami walutowymi, np. EUR/USD, USD/JPY. Inwestorzy spekulują na wzrost lub spadek kursów walutowych.</p>
+    </section>
+
+    <section id="strategie">
+        <h2>Strategie Tradingowe</h2>
+        <p><strong>Fibonacci:</strong> Strategie wykorzystujące poziomy Fibonacciego do przewidywania punktów wsparcia i oporu.</p>
+        <p><strong>SMC (Smart Money Concept):</strong> Obejmuje analizę ruchów instytucji – order blocki, imbalance (braki płynności), FVG (fair value gaps).</p>
+    </section>
+
+    <section id="quiz">
+        <h2>Quiz wiedzy</h2>
+        <p>Wersja quizu w przygotowaniu. Wkrótce dostępnych będzie 15 pytań testujących Twoją wiedzę o giełdzie, forexie i strategiach.</p>
+    </section>
+
+    <section id="transakcje">
+        <h2>Przykładowe Transakcje</h2>
+        <p>W tej sekcji zostaną dodane zrzuty ekranu z platformy TradingView pokazujące zyskowne transakcje.</p>
+    </section>
+
+    <section id="premium">
+        <h2>Dostęp Premium</h2>
+        <p>Wybierz jeden z planów i otrzymuj codzienne sygnały forexowe:</p>
+        <ul>
+            <li>Miesięczny – 49 PLN</li>
+            <li>Roczny – 490 PLN</li>
+            <li>Dożywotni – 990 PLN</li>
+        </ul>
+        <button>Kup dostęp</button>
+    </section>
+</body>
+</html>
